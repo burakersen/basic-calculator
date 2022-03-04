@@ -1,1 +1,3 @@
-"# basic-calculator" 
+# basic-calculator
+
+Basic javascript calculator

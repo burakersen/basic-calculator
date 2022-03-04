@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+}
+input{
+    margin: 5px;
+    font-size: 1.5em!important;
+    color: #202124;
+}
+
+input:focus{
+    border: 1px solid #ced4da!important;
+}
+
+button{
+    background: #f1f3f4!important;
+    color: #202124;
+    margin:5px;
+    outline: none;
+}
+
+button:active{
+    border: 1px solid #ddd;
+}
+
+button.flex-fill{
+    width: 80px;
+}
+
+button.double{
+    width: 170px;
+}

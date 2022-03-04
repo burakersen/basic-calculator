@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link type="text/css" rel="stylesheet" href="./public/calculator.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div>
+            <form action="" method="GET">
+                <div class="row">
+                    <input type="text" class="text-right form-control shadow-none" name="display_screen" value="0">
+                </div>
+                <div class="row">
+                    <button type="button" onclick="clear_screen();" class="flex-fill btn shadow-none double">AC</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">1/x</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">/</button>
+                </div>
+                <div class="row">
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">7</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">8</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">9</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">*</button>
+                </div>
+                <div class="row">
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">4</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">5</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">6</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">-</button>
+                </div>
+                <div class="row">
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">1</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">2</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">3</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">+</button>
+                </div>
+                <div class="row">
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">0</button>
+                    <button type="button" onclick="add(this.innerHTML)" class="flex-fill btn shadow-none">.</button>
+                    <button type="submit" class="flex-fill btn shadow-none double">=</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./public/calculator.js"></script>
+</body>
+</html>
